@@ -106,7 +106,7 @@
             </a>
           </li>
           <li class="sidebar__menu-item">
-            <a href="#" class="sidebar__menu-link">
+            <a href="#" @click.prevent="handleLogout" class="sidebar__menu-link">
               <span class="foxgo-icon logout"></span>
               <span class="sidebar__menu-text" v-show="!isSidebarCollapsed">{{
                 $t('menu.label.logout')
@@ -121,9 +121,10 @@
 
 <script setup>
 import { computed, ref } from 'vue'
-import { useCommonStore } from '@/stores'
+import { useCommonStore, useAuthStore } from '@/stores'
 
 const commonStore = useCommonStore()
+const authStore = useAuthStore()
 
 const isSidebarCollapsed = computed(() => commonStore.isSidebarCollapsed)
 const menuLnbList = computed(() => commonStore.getMenuLnbList)
@@ -193,6 +194,16 @@ const handlePopupMouseEnter = () => {
 const handlePopupMouseLeave = () => {
   isHoveringPopup.value = false
   hoveredItem.value = null
+}
+
+const handleLogout = async () => {
+  if (confirm('Bạn có chắc chắn muốn đăng xuất?')) {
+    try {
+      await authStore.logout()
+    } catch (error) {
+      console.error('Logout error:', error)
+    }
+  }
 }
 </script>
 

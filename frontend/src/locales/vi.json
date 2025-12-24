@@ -2,11 +2,37 @@
   "common": {
     "label": {
       "confirm": "Xác nhận",
-      "cancel": "Huỷ bỏ"
+      "cancel": "Huỷ bỏ",
+      "search": "Tìm kiếm",
+      "create": "Tạo mới",
+      "upload": "Tải lên",
+      "download": "Tải xuống",
+      "delete": "Xóa",
+      "edit": "Sửa",
+      "save": "Lưu",
+      "view": "Xem",
+      "restore": "Khôi phục",
+      "close": "Đóng",
+      "add": "Thêm",
+      "update": "Cập nhật",
+      "filter": "Lọc",
+      "sort": "Sắp xếp",
+      "actions": "Hành động",
+      "loading": "Đang tải...",
+      "error": "Lỗi",
+      "success": "Thành công",
+      "warning": "Cảnh báo",
+      "info": "Thông tin",
+      "confirmation": "Xác nhận"
     },
     "message": {
-      "welcome": "Chào mừng bạn đến với Foxgo!"
+      "welcome": "Chào mừng bạn đến với Foxgo!",
+      "session_expired": "Phiên làm việc đã hết hạn. Vui lòng đăng nhập lại."
     }
+  },
+  "header": {
+    "greeting": "Xin chào, {name}",
+    "slogan": "Chào mừng bạn đến với AI Teaching Assistant! tối ưu công việc, vui mỗi ngày!"
   },
   "menu": {
     "label": {
@@ -24,5 +50,36 @@
       "k12": "K12",
       "foreignLanguage": "Ngoại ngữ"
     }
+  },
+  "auth": {
+    "welcomeMessage": "Chào mừng bạn quay lại! Hãy đăng nhập để tiếp tục.",
+    "joinMessage": "Tham gia cùng chúng tôi ngay hôm nay!",
+    "loginTitle": "Đăng nhập",
+    "loginSubtitle": "Nhập thông tin của bạn để đăng nhập",
+    "registerTitle": "Đăng ký",
+    "registerSubtitle": "Tạo tài khoản mới để bắt đầu",
+    "email": "Email",
+    "emailPlaceholder": "Nhập email của bạn",
+    "password": "Mật khẩu",
+    "passwordPlaceholder": "Nhập mật khẩu",
+    "passwordHint": "Mật khẩu phải có ít nhất 6 ký tự",
+    "confirmPassword": "Xác nhận mật khẩu",
+    "confirmPasswordPlaceholder": "Nhập lại mật khẩu",
+    "fullName": "Họ và tên",
+    "fullNamePlaceholder": "Nhập họ và tên",
+    "rememberMe": "Ghi nhớ đăng nhập",
+    "forgotPassword": "Quên mật khẩu?",
+    "login": "Đăng nhập",
+    "loggingIn": "Đang đăng nhập...",
+    "register": "Đăng ký",
+    "createAccount": "Tạo tài khoản",
+    "creatingAccount": "Đang tạo tài khoản...",
+    "or": "hoặc",
+    "loginWithGoogle": "Đăng nhập với Google",
+    "registerWithGoogle": "Đăng ký với Google",
+    "noAccount": "Chưa có tài khoản?",
+    "haveAccount": "Đã có tài khoản?",
+    "agreeToTerms": "Tôi đồng ý với",
+    "termsOfService": "Điều khoản dịch vụ"
   }
 }

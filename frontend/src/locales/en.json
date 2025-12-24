@@ -2,11 +2,37 @@
   "common": {
     "label": {
       "confirm": "Confirm",
-      "cancel": "Cancel"
+      "cancel": "Cancel",
+      "search": "Search",
+      "create": "Create",
+      "upload": "Upload",
+      "download": "Download",
+      "delete": "Delete",
+      "edit": "Edit",
+      "save": "Save",
+      "view": "View",
+      "restore": "Restore",
+      "close": "Close",
+      "add": "Add",
+      "update": "Update",
+      "filter": "Filter",
+      "sort": "Sort",
+      "actions": "Actions",
+      "loading": "Loading...",
+      "error": "Error",
+      "success": "Success",
+      "warning": "Warning",
+      "info": "Info",
+      "confirmation": "Confirmation"
     },
     "message": {
-      "welcome": "Welcome to Foxgo!"
+      "welcome": "Welcome to Foxgo!",
+      "session_expired": "Your session has expired. Please login again."
     }
+  },
+  "header": {
+    "greeting": "Hello, {name}",
+    "slogan": "Welcome to AI Teaching Assistant! optimize your work, enjoy every day!"
   },
   "menu": {
     "label": {
@@ -24,5 +50,36 @@
       "k12": "K12",
       "foreignLanguage": "Foreign Language"
     }
+  },
+  "auth": {
+    "welcomeMessage": "Welcome back! Please login to continue.",
+    "joinMessage": "Join us today!",
+    "loginTitle": "Login",
+    "loginSubtitle": "Enter your credentials to login",
+    "registerTitle": "Register",
+    "registerSubtitle": "Create a new account to get started",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email",
+    "password": "Password",
+    "passwordPlaceholder": "Enter password",
+    "passwordHint": "Password must be at least 6 characters",
+    "confirmPassword": "Confirm Password",
+    "confirmPasswordPlaceholder": "Re-enter password",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "Enter your full name",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "login": "Login",
+    "loggingIn": "Logging in...",
+    "register": "Register",
+    "createAccount": "Create Account",
+    "creatingAccount": "Creating account...",
+    "or": "or",
+    "loginWithGoogle": "Login with Google",
+    "registerWithGoogle": "Register with Google",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "agreeToTerms": "I agree to the",
+    "termsOfService": "Terms of Service"
   }
 }
