@@ -1,0 +1,47 @@
+@mixin clearfix {
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+}
+
+@mixin text-base($color: $gray-700) {
+  font-size: 1.4rem;
+  color: $color;
+  line-height: 2.1rem;
+}
+
+@mixin ellipsis($line: 1) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  @if $line == 1 {
+    white-space: pre;
+  } @else {
+    display: -webkit-box;
+    -webkit-line-clamp: $line;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: normal;
+  }
+}
+
+@mixin transition($speed: 0.1s) {
+  transition: all $speed ease 0s;
+}
+
+@mixin darkmode($speed: 0.12s) {
+  transition: background-color $speed linear 0s;
+}
+
+@mixin svg($path, $color) {
+  display: inline-block;
+  background-color: $color;
+  mask-image: url($path);
+  background-size: cover;
+  mask-size: contain;
+  mask-position: center;
+  mask-repeat: no-repeat;
+}

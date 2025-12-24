@@ -1,0 +1,28 @@
+{
+  "common": {
+    "label": {
+      "confirm": "Confirm",
+      "cancel": "Cancel"
+    },
+    "message": {
+      "welcome": "Welcome to Foxgo!"
+    }
+  },
+  "menu": {
+    "label": {
+      "home": "Home",
+      "mission": "Mission",
+      "lesson": "Lesson",
+      "practice": "Practice",
+      "evaluate": "Evaluate",
+      "subject": "Subject",
+      "myClass": "My Class",
+      "more": "More",
+      "support": "Support",
+      "setting": "Setting",
+      "logout": "Logout",
+      "k12": "K12",
+      "foreignLanguage": "Foreign Language"
+    }
+  }
+}

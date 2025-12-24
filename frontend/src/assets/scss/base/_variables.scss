@@ -1,0 +1,141 @@
+// Error Colors (Cardinal)
+$cardinal-100: #ffd2d2;
+$cardinal-200: #ffa5a5;
+$cardinal-300: #ff7878;
+$cardinal-400: #ff4b4b;
+$cardinal-500: #ff2525;
+$cardinal-600: #fe0000;
+$cardinal-700: #d80000;
+$cardinal-800: #b20000;
+$cardinal-900: #8c0000;
+$cardinal-1000: #660000;
+$cardinal-alpha-50: #fff0f0;
+
+// Success Colors (Mask Green)
+$mask-green-100: #ebfbd8;
+$mask-green-200: #d8f6b1;
+$mask-green-300: #c4f28a;
+$mask-green-400: #b1ee64;
+$mask-green-500: #9dea3d;
+$mask-green-600: #89e219;
+$mask-green-700: #74c015;
+$mask-green-800: #609e12;
+$mask-green-900: #4b7c0e;
+$mask-green-1000: #375b0a;
+$mask-green-alpha-50: #f7feef;
+
+// Warning Colors
+$warning-100: #fff6d5;
+$warning-200: #ffedaa;
+$warning-300: #ffe380;
+$warning-400: #ffda55;
+$warning-500: #ffd12b;
+$warning-600: #ffc800;
+$warning-700: #d9aa00;
+$warning-800: #b38c00;
+$warning-900: #8c6e00;
+$warning-1000: #665000;
+$warning-50: #fffbed;
+
+// Primary Colors
+$primary-100: #ffeed5;
+$primary-200: #ffdcaa;
+$primary-300: #ffcb80;
+$primary-400: #ffb955;
+$primary-500: #ffa82b;
+$primary-600: #ff9600;
+$primary-700: #d98000;
+$primary-800: #b36900;
+$primary-900: #8c5300;
+$primary-1000: #663c00;
+$primary-50: #fff8ed;
+
+// Gray Colors
+$gray-100: #f5f5f5;
+$gray-200: #e6e6e6;
+$gray-300: #cccccc;
+$gray-400: #b3b3b3;
+$gray-500: #8c8c8c;
+$gray-600: #6e6e6e;
+$gray-700: #5e5e5e;
+$gray-800: #474747;
+$gray-900: #333333;
+$gray-1000: #262626;
+$gray-50: #fafafa;
+
+// MACAW Colors
+$macaw-100: #d2effd;
+$macaw-200: #a4dffb;
+$macaw-300: #77d0fa;
+$macaw-400: #49c0f8;
+$macaw-500: #1cb0f6;
+$macaw-600: #099fe5;
+$macaw-700: #0887c3;
+$macaw-800: #066fa1;
+$macaw-900: #05587f;
+$macaw-1000: #04405d;
+$macaw-alpha-50: #eff8ff;
+
+// Error/Danger
+$color-error: $cardinal-600;
+$color-error-light: $cardinal-300;
+$color-error-dark: $cardinal-800;
+$color-error-bg: $cardinal-100;
+$color-error-border: $cardinal-400;
+
+// Success
+$color-success: $mask-green-700;
+$color-success-light: $mask-green-400;
+$color-success-dark: $mask-green-1000;
+$color-success-bg: $mask-green-100;
+$color-success-border: $mask-green-500;
+
+// Warning
+$color-warning: $warning-600;
+$color-warning-light: $warning-300;
+$color-warning-dark: $warning-800;
+$color-warning-bg: $warning-100;
+$color-warning-border: $warning-400;
+
+// Primary/Brand
+$color-primary: $primary-600;
+$color-primary-light: $primary-300;
+$color-primary-dark: $primary-800;
+$color-primary-bg: $primary-100;
+$color-primary-border: $primary-400;
+
+// Info
+$color-info: $macaw-600;
+$color-info-light: $macaw-300;
+$color-info-dark: $macaw-800;
+$color-info-bg: $macaw-100;
+$color-info-border: $macaw-400;
+
+// Neutral/Gray
+$color-text-primary: $gray-1000;
+$color-text-secondary: $gray-700;
+$color-text-tertiary: $gray-500;
+$color-text-disabled: $gray-400;
+
+$color-bg-primary: #ffffff;
+$color-bg-secondary: $gray-50;
+$color-bg-tertiary: $gray-100;
+$color-bg-disabled: $gray-200;
+
+$color-border-primary: $gray-300;
+$color-border-secondary: $gray-200;
+$color-border-focus: $primary-500;
+
+// sidebar/header
+$sidebar-width: 304px;
+$sidebar-width-collapsed: 68px;
+
+$header-height: 101px;
+
+// border-radius
+$border-radius-base: 12px;
+
+// breakpoints
+$breakpoint-mobile: 576px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;

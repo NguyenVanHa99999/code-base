@@ -1,0 +1,27 @@
+@use '../base/variables' as *;
+@use '../base/mixin' as *;
+
+.wrapper {
+  height: 100%;
+  padding-top: $header-height;
+  padding-left: $sidebar-width;
+  @include transition(0.3s);
+
+  &--collapsed {
+    padding-left: $sidebar-width-collapsed;
+  }
+}
+
+.dashboard-layout {
+  background-color: $color-bg-secondary;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  &__main {
+    flex: 1;
+    overflow-y: auto;
+    padding: 24px 40px;
+  }
+}

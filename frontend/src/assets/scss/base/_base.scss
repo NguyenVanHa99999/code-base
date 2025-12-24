@@ -1,0 +1,140 @@
+@use 'variables' as *;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  font-size: 62.5%; // 1rem = 10px
+
+  @media (max-width: $breakpoint-desktop) {
+    font-size: 50%; // 1rem = 8px
+  }
+
+  @media (max-width: $breakpoint-tablet) {
+    font-size: 40%; // 1rem = 6.4px
+  }
+  @media (max-width: $breakpoint-mobile) {
+    font-size: 30%; // 1rem = 4.8px
+  }
+}
+
+body {
+  font-family: 'Inter', sans-serif, arial;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  font-size: 1.4rem;
+  color: $gray-700;
+  line-height: 1;
+  background-color: transparent;
+}
+
+#app {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin: 0;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+dl {
+  margin: 0;
+}
+
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+  color: $gray-700;
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+pre {
+  margin: 0;
+  font-family: 'Metropolis', sans-serif, arial;
+  font-size: 1.2rem;
+  color: $gray-700;
+  line-height: 1.8;
+  white-space: pre-line;
+  word-break: break-all;
+}
+
+strong,
+em {
+  font-style: normal;
+  font-weight: 400;
+}
+
+input[type='number']:not(.spin)::-webkit-outer-spin-button,
+input[type='number']:not(.spin)::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input[type='number']:not(.spin) {
+  -moz-appearance: textfield;
+}
+
+label {
+  margin: 0;
+}
+
+button {
+  border: 0;
+  vertical-align: middle;
+  background-color: transparent;
+  &.dropdown-toggle::after {
+    margin: 0;
+    border: 0;
+    vertical-align: baseline;
+  }
+}
+
+*:focus {
+  outline: 0;
+}
+
+textarea {
+  resize: none;
+}
+
+.hide {
+  overflow: hidden;
+  position: absolute;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  text-indent: -9999px;
+}
+
+.text-pre {
+  white-space: pre;
+}

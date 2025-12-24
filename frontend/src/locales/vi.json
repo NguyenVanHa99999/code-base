@@ -1,0 +1,28 @@
+{
+  "common": {
+    "label": {
+      "confirm": "Xác nhận",
+      "cancel": "Huỷ bỏ"
+    },
+    "message": {
+      "welcome": "Chào mừng bạn đến với Foxgo!"
+    }
+  },
+  "menu": {
+    "label": {
+      "home": "Trang chủ",
+      "mission": "Nhiệm vụ",
+      "lesson": "Bài giảng",
+      "practice": "Ôn luyện",
+      "evaluate": "Đánh giá",
+      "subject": "Khoá học",
+      "myClass": "Lớp học của tôi",
+      "more": "Xem thêm",
+      "support": "Trợ giúp",
+      "setting": "Cài đặt",
+      "logout": "Đăng xuất",
+      "k12": "K12",
+      "foreignLanguage": "Ngoại ngữ"
+    }
+  }
+}

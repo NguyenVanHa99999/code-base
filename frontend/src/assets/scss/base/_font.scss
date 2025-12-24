@@ -1,0 +1,26 @@
+/* Metropolis */
+/* Font format: otf*/
+@font-face {
+  font-family: 'Metropolis';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('Metropolis Regular'),
+    url('@/assets/fonts/Metropolis-Regular.otf') format('otf');
+}
+@font-face {
+  font-family: 'Metropolis';
+  font-style: normal;
+  font-weight: 500;
+  src:
+    local('Metropolis Medium'),
+    url('@/assets/fonts/Metropolis-Medium.otf') format('otf');
+}
+@font-face {
+  font-family: 'Metropolis';
+  font-style: normal;
+  font-weight: 700;
+  src:
+    local('Metropolis Bold'),
+    url('@/assets/fonts/Metropolis-Bold.otf') format('otf');
+}

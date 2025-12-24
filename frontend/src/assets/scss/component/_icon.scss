@@ -1,0 +1,66 @@
+@use '../base/variables' as *;
+@use '../base/mixin' as *;
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.foxgo-icon {
+  display: inline-block;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  color: $gray-600;
+
+  &.book {
+    background-image: url('@/assets/images/icons/icon-lnb-book.svg');
+  }
+  &.class {
+    background-image: url('@/assets/images/icons/icon-lnb-class.svg');
+  }
+  &.learn {
+    background-image: url('@/assets/images/icons/icon-lnb-learn.svg');
+  }
+  &.logout {
+    background-image: url('@/assets/images/icons/icon-lnb-logout.svg');
+  }
+  &.mission {
+    background-image: url('@/assets/images/icons/icon-lnb-mission.svg');
+  }
+  &.more {
+    background-image: url('@/assets/images/icons/icon-lnb-more.svg');
+  }
+  &.result {
+    background-image: url('@/assets/images/icons/icon-lnb-result.svg');
+  }
+  &.school {
+    background-image: url('@/assets/images/icons/icon-lnb-school.svg');
+  }
+  &.setting {
+    background-image: url('@/assets/images/icons/icon-lnb-setting.svg');
+  }
+  &.subject {
+    background-image: url('@/assets/images/icons/icon-lnb-subject.svg');
+  }
+  &.support {
+    background-image: url('@/assets/images/icons/icon-lnb-support.svg');
+  }
+  &.flag-eng {
+    background-image: url('@/assets/images/icons/icon_flag_en.svg');
+    width: 28px;
+    height: 20px;
+  }
+  &.flag-vn {
+    background-image: url('@/assets/images/icons/icon_flag_vi.svg');
+    width: 28px;
+    height: 20px;
+  }
+  &.streak {
+    background-image: url('@/assets/images/icons/icon-streak.svg');
+  }
+  &.diamond {
+    background-image: url('@/assets/images/icons/icon-diamond.svg');
+  }
+  &.noti {
+    background-image: url('@/assets/images/icons/icon-noti.svg');
+  }
+}

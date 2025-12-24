@@ -1,0 +1,108 @@
+@use '../base/mixin' as *;
+@use '../base/variables' as *;
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+  background-color: $color-bg-primary;
+  border-bottom: 2px solid $gray-100;
+  position: fixed;
+  left: $sidebar-width;
+  max-height: $header-height;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  @include transition(0.3s);
+
+  &--collapsed {
+    left: $sidebar-width-collapsed;
+  }
+
+  &__left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+
+  &__greeting {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    font-weight: 600;
+    color: $gray-1000;
+  }
+
+  &__slogan {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: $gray-500;
+    @include ellipsis(2);
+  }
+
+  &__points {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px;
+
+    &--item {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    &-value {
+      font-size: 1.4rem;
+      line-height: 2rem;
+      font-weight: 700;
+      &--streak {
+        color: $primary-600;
+      }
+      &--diamond {
+        color: #f94646;
+      }
+    }
+  }
+
+  &__system {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+
+  &__language {
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  &__user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 4px;
+
+    &-avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: $primary-600;
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
